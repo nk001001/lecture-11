@@ -1,0 +1,59 @@
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-elements-wraper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.form-elements-wraper>label {
+    font-size: 20px;
+    color: rgb(131, 11, 43);
+    margin-bottom: 15px;
+}
+.form-elements-wraper>input {
+    padding: 15px;
+    border: none;
+    border-bottom: 2px solid red;
+    caret-color: blue;
+}
+.form-elements-wraper>input::placeholder {
+    font-size: 14px;
+    color: blueviolet;
+}
+
+.textarea {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 40px;
+    resize: none;
+    padding: 15px;
+}
+
+.form-buttons-wraper {
+    display: flex;
+    justify-content: end;
+}
+
+.button {
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+}
+
+.button.reset {
+    background-color: red;
+    margin-right: 15px;
+}
+.button.save {
+    background-color: blue;
+}
+
+
